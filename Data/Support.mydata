@@ -149,7 +149,7 @@ Rec: GO
 	lang_Dependencies = Part of my TrickyUnits for Go and best is to keep it there.
 	lang_Name = Go
 	lang_Remarks = 
-	lang_repository = https//github.com/tricky1975/trickyunits_go
+	lang_repository = https://github.com/tricky1975/trickyunits_go
 
 Rec: PYTHON
 	comp_dependencies = lzma requires a specially set up library.

@@ -83,7 +83,7 @@ function showSupport(){
 			}
 			crap+="</table>";
 			addContent(crap);
-			
+			addContent("<img src='img/-1.png' height=15> = Not supported<br><img src='img/0.png' height=15> = Not supported yet, but planned for the nearby future<br><img src='img/1.png' height=15> = Supported");
 		}
 	};
 	xmlhttp.open("GET", "Data/Support.json", true);

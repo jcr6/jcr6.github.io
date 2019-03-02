@@ -88,7 +88,7 @@
 	<lang_Dependencies>Part of my TrickyUnits for Go and best is to keep it there.</lang_Dependencies>
 	<lang_Name>Go</lang_Name>
 	<lang_Remarks></lang_Remarks>
-	<lang_repository>https//github.com/tricky1975/trickyunits_go</lang_repository>
+	<lang_repository>https://github.com/tricky1975/trickyunits_go</lang_repository>
 </GO>
 <PYTHON>
 	<comp_dependencies>lzma requires a specially set up library.</comp_dependencies>
