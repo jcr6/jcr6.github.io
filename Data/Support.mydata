@@ -14,6 +14,7 @@ OutputJSONBase          = /Volumes/Scyndi/Projects/Applications/JavaScript/JCR6 
 string lang_Name
 string lang_Dependencies
 string lang_Remarks
+string lang_repository
 
 [page:Compression Support]
 info -1 = not supported at all and never well be.
@@ -81,6 +82,7 @@ Rec: BLITZMAX
 	lang_Dependencies = JCR6 does call to functions stored in my TrickyUnits for BlitzMax
 	lang_Name = BlitzMax
 	lang_Remarks = 
+	lang_repository = 
 
 Rec: CPLUSPLUS
 	comp_dependencies = In order to compile the 'zlib' driver you need the zlib library to be installed and your compiler!
@@ -100,6 +102,7 @@ Rec: CPLUSPLUS
 	lang_Dependencies = 
 	lang_Name = C++
 	lang_Remarks = 
+	lang_repository = https://github.com/jcr6/JCR6_CPP
 
 Rec: CSHARP
 	comp_dependencies = 
@@ -119,6 +122,7 @@ Rec: CSHARP
 	lang_Dependencies = Relies on my TrickyUnits for C#
 	lang_Name = C#
 	lang_Remarks = 
+	lang_repository = https://github.com/jcr6/JCR6_CSharp
 
 Rec: GO
 	comp_dependencies = lzma requires the respository github.com/itchio/lzma to be installed in your Go source directory
@@ -138,6 +142,7 @@ Rec: GO
 	lang_Dependencies = Part of my TrickyUnits for Go and best is to keep it there.
 	lang_Name = Go
 	lang_Remarks = 
+	lang_repository = https//github.com/tricky1975/trickyunits_go
 
 Rec: PYTHON
 	comp_dependencies = lzma requires a specially set up library.
@@ -157,6 +162,7 @@ Rec: PYTHON
 	lang_Dependencies = 
 	lang_Name = Python
 	lang_Remarks = The python version only works in Python 2.x and is no longer actively maintained, but can be 'revived' if in demand ;)
+	lang_repository = 
 
 Rec: TURBOPASCAL
 	comp_dependencies = 
@@ -176,4 +182,5 @@ Rec: TURBOPASCAL
 	lang_Dependencies = Tricky's Units for Turbo Pascal.
 	lang_Name = Turbo Pascal (MS-DOS)
 	lang_Remarks = This version only gives minimal support, in order not to spook up the RAM wich is an issue in MS-DOS. Therefore I would NOT recommend to use this unit in Free Pascal. I am still studying the possibilities there.
+	lang_repository = https://github.com/jcr6/JCR6_TurboPascal
 

@@ -16,7 +16,8 @@
 		"file_WAD" : 1,
 		"lang_Dependencies" : "JCR6 does call to functions stored in my TrickyUnits for BlitzMax",
 		"lang_Name" : "BlitzMax",
-		"lang_Remarks" : ""}
+		"lang_Remarks" : "",
+		"lang_repository" : ""}
 ,
 	"CPLUSPLUS" : 	{
 		"comp_dependencies" : "In order to compile the 'zlib' driver you need the zlib library to be installed and your compiler!",
@@ -35,7 +36,8 @@
 		"file_WAD" : 1,
 		"lang_Dependencies" : "",
 		"lang_Name" : "C++",
-		"lang_Remarks" : ""}
+		"lang_Remarks" : "",
+		"lang_repository" : "https://github.com/jcr6/JCR6_CPP"}
 ,
 	"CSHARP" : 	{
 		"comp_dependencies" : "",
@@ -54,7 +56,8 @@
 		"file_WAD" : 1,
 		"lang_Dependencies" : "Relies on my TrickyUnits for C#",
 		"lang_Name" : "C#",
-		"lang_Remarks" : ""}
+		"lang_Remarks" : "",
+		"lang_repository" : "https://github.com/jcr6/JCR6_CSharp"}
 ,
 	"GO" : 	{
 		"comp_dependencies" : "lzma requires the respository github.com/itchio/lzma to be installed in your Go source directory",
@@ -73,7 +76,8 @@
 		"file_WAD" : 1,
 		"lang_Dependencies" : "Part of my TrickyUnits for Go and best is to keep it there.",
 		"lang_Name" : "Go",
-		"lang_Remarks" : ""}
+		"lang_Remarks" : "",
+		"lang_repository" : "https//github.com/tricky1975/trickyunits_go"}
 ,
 	"PYTHON" : 	{
 		"comp_dependencies" : "lzma requires a specially set up library.",
@@ -92,7 +96,8 @@
 		"file_WAD" : -1,
 		"lang_Dependencies" : "",
 		"lang_Name" : "Python",
-		"lang_Remarks" : "The python version only works in Python 2.x and is no longer actively maintained, but can be 'revived' if in demand ;)"}
+		"lang_Remarks" : "The python version only works in Python 2.x and is no longer actively maintained, but can be 'revived' if in demand ;)",
+		"lang_repository" : ""}
 ,
 	"TURBOPASCAL" : 	{
 		"comp_dependencies" : "",
@@ -111,6 +116,7 @@
 		"file_WAD" : -1,
 		"lang_Dependencies" : "Tricky's Units for Turbo Pascal.",
 		"lang_Name" : "Turbo Pascal (MS-DOS)",
-		"lang_Remarks" : "This version only gives minimal support, in order not to spook up the RAM wich is an issue in MS-DOS. Therefore I would NOT recommend to use this unit in Free Pascal. I am still studying the possibilities there."}
+		"lang_Remarks" : "This version only gives minimal support, in order not to spook up the RAM wich is an issue in MS-DOS. Therefore I would NOT recommend to use this unit in Free Pascal. I am still studying the possibilities there.",
+		"lang_repository" : "https://github.com/jcr6/JCR6_TurboPascal"}
 }
 
