@@ -1,6 +1,7 @@
 {
 	"BLITZMAX" : 	{
 		"comp_dependencies" : "",
+		"comp_flate" : -1,
 		"comp_jxsrcca" : -1,
 		"comp_lzma" : -1,
 		"comp_lzw" : -1,
@@ -21,6 +22,7 @@
 ,
 	"CPLUSPLUS" : 	{
 		"comp_dependencies" : "In order to compile the 'zlib' driver you need the zlib library to be installed and your compiler!",
+		"comp_flate" : -1,
 		"comp_jxsrcca" : -1,
 		"comp_lzma" : -1,
 		"comp_lzw" : -1,
@@ -41,6 +43,7 @@
 ,
 	"CSHARP" : 	{
 		"comp_dependencies" : "",
+		"comp_flate" : -1,
 		"comp_jxsrcca" : 0,
 		"comp_lzma" : 1,
 		"comp_lzw" : -1,
@@ -61,6 +64,7 @@
 ,
 	"GO" : 	{
 		"comp_dependencies" : "lzma requires the respository github.com/itchio/lzma to be installed in your Go source directory",
+		"comp_flate" : 1,
 		"comp_jxsrcca" : 1,
 		"comp_lzma" : 1,
 		"comp_lzw" : 1,
@@ -81,6 +85,7 @@
 ,
 	"PYTHON" : 	{
 		"comp_dependencies" : "lzma requires a specially set up library.",
+		"comp_flate" : -1,
 		"comp_jxsrcca" : -1,
 		"comp_lzma" : 1,
 		"comp_lzw" : -1,
@@ -101,6 +106,7 @@
 ,
 	"TURBOPASCAL" : 	{
 		"comp_dependencies" : "",
+		"comp_flate" : -1,
 		"comp_jxsrcca" : 1,
 		"comp_lzma" : -1,
 		"comp_lzw" : -1,
@@ -112,7 +118,7 @@
 		"file_JCR6" : 1,
 		"file_QuakePak" : -1,
 		"file_Real_Dir" : -1,
-		"file_remarks" : "",
+		"file_remarks" : "File tables may NOT be packed. Entries may be packed with jxsrcca only.",
 		"file_WAD" : -1,
 		"lang_Dependencies" : "Tricky's Units for Turbo Pascal.",
 		"lang_Name" : "Turbo Pascal (MS-DOS)",

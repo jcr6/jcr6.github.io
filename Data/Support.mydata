@@ -8,6 +8,7 @@
 AutoOutput              = YES
 RemoveNonExistentFields = YES
 OutputJSONBase          = /Volumes/Scyndi/Projects/Applications/JavaScript/JCR6 Website/Data/Support.json
+OutputXMLBase           = /Volumes/Scyndi/Projects/Applications/JavaScript/JCR6 Website/Data/Support.xml
 
 
 [page:Gen]
@@ -25,6 +26,7 @@ int comp_Store
 int comp_zlib
 int comp_lzma
 int comp_lzw
+int comp_flate
 int comp_jxsrcca
 string comp_remarks
 string comp_dependencies
@@ -47,6 +49,7 @@ comp_Store=1
 comp_zlib=-1
 comp_lzma=-1
 comp_lzw=-1
+comp_flate=-1
 comp_jxsrcca=-1
 file_JCR6=1
 file_JCR5=-1
@@ -66,6 +69,7 @@ file_Real_Dir=-1
 
 Rec: BLITZMAX
 	comp_dependencies = 
+	comp_flate = -1
 	comp_jxsrcca = -1
 	comp_lzma = -1
 	comp_lzw = -1
@@ -86,6 +90,7 @@ Rec: BLITZMAX
 
 Rec: CPLUSPLUS
 	comp_dependencies = In order to compile the 'zlib' driver you need the zlib library to be installed and your compiler!
+	comp_flate = -1
 	comp_jxsrcca = -1
 	comp_lzma = -1
 	comp_lzw = -1
@@ -106,6 +111,7 @@ Rec: CPLUSPLUS
 
 Rec: CSHARP
 	comp_dependencies = 
+	comp_flate = -1
 	comp_jxsrcca = 0
 	comp_lzma = 1
 	comp_lzw = -1
@@ -126,6 +132,7 @@ Rec: CSHARP
 
 Rec: GO
 	comp_dependencies = lzma requires the respository github.com/itchio/lzma to be installed in your Go source directory
+	comp_flate = 1
 	comp_jxsrcca = 1
 	comp_lzma = 1
 	comp_lzw = 1
@@ -146,6 +153,7 @@ Rec: GO
 
 Rec: PYTHON
 	comp_dependencies = lzma requires a specially set up library.
+	comp_flate = -1
 	comp_jxsrcca = -1
 	comp_lzma = 1
 	comp_lzw = -1
@@ -166,6 +174,7 @@ Rec: PYTHON
 
 Rec: TURBOPASCAL
 	comp_dependencies = 
+	comp_flate = -1
 	comp_jxsrcca = 1
 	comp_lzma = -1
 	comp_lzw = -1
@@ -177,7 +186,7 @@ Rec: TURBOPASCAL
 	file_JCR6 = 1
 	file_QuakePak = -1
 	file_Real_Dir = -1
-	file_remarks = 
+	file_remarks = File tables may NOT be packed. Entries may be packed with jxsrcca only.
 	file_WAD = -1
 	lang_Dependencies = Tricky's Units for Turbo Pascal.
 	lang_Name = Turbo Pascal (MS-DOS)
