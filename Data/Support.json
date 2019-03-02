@@ -110,7 +110,7 @@
 		"file_remarks" : "",
 		"file_WAD" : -1,
 		"lang_Dependencies" : "Tricky's Units for Turbo Pascal.",
-		"lang_Name" : "Turbo Pascal",
+		"lang_Name" : "Turbo Pascal (MS-DOS)",
 		"lang_Remarks" : "This version only gives minimal support, in order not to spook up the RAM wich is an issue in MS-DOS. Therefore I would NOT recommend to use this unit in Free Pascal. I am still studying the possibilities there."}
 }
 
